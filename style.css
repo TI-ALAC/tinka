@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'COCOGOOSE';
+    src: url(fonts/Cocogoose.otf);
+    font-weight: regular;
+}
+
+img {
+    object-fit: fill;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100vh;
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.pozo2digitos {
+    font-size: 172pt;
+    font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #EB1C24;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 10;
+    left: 16%;
+    letter-spacing: -20px;
+
+    right: 2%;
+    top: 52%;
+}
+.pozoUnidad {
+    font-size: 172pt;
+    font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #EB1C24;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 10;
+    left: 20%;
+    letter-spacing: -20px;
+    right: 2%;
+    top: 52%;
+}
+#millones{
+    font-size: 122pt;
+    font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #EB1C24;
+    left: 34%;
+    top: 58%;
+    position: absolute;
+}
+
+/* 800x420 */
+@media only screen and (max-width: 800px) {
+    /* .pozo {
+        font-size: 62pt;
+        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #EB1C24;
+        position: absolute;
+        z-index: 10;
+        left: 20%;
+        right: 2%;
+        top: 55%;
+    } */
+
+    .pozo2digitos {
+        font-size: 82pt!important;
+        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #EB1C24;
+        position: absolute;
+        z-index: 10;
+        left: 15%;
+        right: 2%;
+        letter-spacing: -10px;
+        top: 52%;
+    }
+    .pozoUnidad {
+        font-size: 92pt!important;
+        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #EB1C24;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        z-index: 10;
+        left: 20%;
+        right: 2%;
+        top: 50%;
+    }
+    #millones{
+        font-size: 62pt!important;
+        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #EB1C24;
+        left: 35%;
+        top: 56%;
+        position: absolute;
+    }
+}
+
+/* 768x384 */
+@media only screen and (max-width: 768px) {
+    .pozo2digitos {
+        font-size: 78pt!important;
+        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #EB1C24;
+        position: absolute;
+        z-index: 10;
+        left: 15%;
+        right: 2%;
+        letter-spacing: -10px;
+        top: 52%;
+    }
+    .pozoUnidad {
+        font-size: 78pt!important;
+        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #EB1C24;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        z-index: 10;
+        left: 20%;
+        right: 2%;
+        top: 50%;
+    }
+    #millones{
+        font-size: 58pt!important;
+        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #EB1C24;
+        left: 35%;
+        top: 56%;
+        position: absolute;
+    }
+}
+
+/* 720x360 */
+@media only screen and (max-width: 720px) {
+    .pozo2digitos {
+        font-size: 76pt!important;
+        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #EB1C24;
+        position: absolute;
+        z-index: 10;
+        left: 15%;
+        right: 2%;
+        letter-spacing: -10px;
+        top: 52%;
+    }
+    .pozoUnidad {
+        font-size: 76pt!important;
+        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #EB1C24;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        z-index: 10;
+        left: 20%;
+        right: 2%;
+        top: 50%;
+    }
+    #millones{
+        font-size: 56pt!important;
+        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #EB1C24;
+        left: 35%;
+        top: 56%;
+        position: absolute;
+    }
+}
