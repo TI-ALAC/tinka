@@ -16,7 +16,7 @@ function init() {
     content.style.display = "none";
     content2.style.display = "none";
     content3.style.display = "block";
-  }, 70000);
+  }, 7000);
 }
 
 init();
