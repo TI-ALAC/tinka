@@ -6,17 +6,17 @@ function init() {
     content.style.display = "block";
     content2.style.display = "none";
     content3.style.display = "none";
-  }, 0);
+  }, 2000);
   setTimeout(() => {
     content.style.display = "none";
     content2.style.display = "block";
     content3.style.display = "none";
-  }, 2500);
+  }, 3000);
   setTimeout(() => {
     content.style.display = "none";
     content2.style.display = "none";
     content3.style.display = "block";
-  }, 5500);
+  }, 2000);
 }
 
 init();

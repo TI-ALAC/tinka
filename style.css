@@ -132,6 +132,7 @@ img {
         left: 20%;
         right: 2%;
         top: 50%;
+        letter-spacing: -12px;
     }
     #millones{
         font-size: 58pt!important;
