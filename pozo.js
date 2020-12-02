@@ -11,12 +11,12 @@ function init() {
     content.style.display = "none";
     content2.style.display = "block";
     content3.style.display = "none";
-  }, 3000);
+  }, 5000);
   setTimeout(() => {
     content.style.display = "none";
     content2.style.display = "none";
     content3.style.display = "block";
-  }, 2000);
+  }, 70000);
 }
 
 init();
