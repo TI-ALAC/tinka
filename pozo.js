@@ -1,7 +1,8 @@
 var content = document.getElementById('contenido');
 var content2 = document.getElementById('contenido2');
 var content3 = document.getElementById('contenido3');
-function init() {
+async function init() {
+  await getUser();
   setTimeout(() => {
     content.style.display = "block";
     content2.style.display = "none";
@@ -47,4 +48,3 @@ function innerHTML(text_monto){
   
 }
 
-getUser();
