@@ -4,13 +4,13 @@ var content3 = document.getElementById('contenido3');
 async function init() {
   await getUser();
   setTimeout(() => {
-    content.style.display = "block";
-    content2.style.display = "none";
+    content.style.display = "none";
+    content2.style.display = "block";
     content3.style.display = "none";
   }, 0);
   setTimeout(() => {
-    content.style.display = "none";
-    content2.style.display = "block";
+    content.style.display = "block";
+    content2.style.display = "none";
     content3.style.display = "none";
   }, 2500);
   setTimeout(() => {
