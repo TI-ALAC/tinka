@@ -1,23 +1,15 @@
 var content = document.getElementById('contenido');
 var content2 = document.getElementById('contenido2');
-var content3 = document.getElementById('contenido3');
 async function init() {
   await getUser();
+  content.style.display = "block";
+  setTimeout(() => {
+    content2.style.display = "none";
+  }, 0);
   setTimeout(() => {
     content.style.display = "none";
     content2.style.display = "block";
-    content3.style.display = "none";
-  }, 0);
-  setTimeout(() => {
-    content.style.display = "block";
-    content2.style.display = "none";
-    content3.style.display = "none";
-  }, 2500);
-  setTimeout(() => {
-    content.style.display = "none";
-    content2.style.display = "none";
-    content3.style.display = "block";
-  }, 5500);
+  }, 4000);
 }
 
 init();
