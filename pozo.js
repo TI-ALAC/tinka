@@ -17,7 +17,7 @@ init();
 
 async function getUser() {
   try {
-    const response = await axios.get('https://creativo.alacoutdoor.pe/api/tinka');
+    const response = await axios.get('https://creativoartes.alacoohperu.pe/api/tinka');
     const text_monto = response.data.data.premios.text;
     localStorage.setItem('montoFinal', JSON.stringify(text_monto));
     const montoFinal = JSON.parse(localStorage.getItem('montoFinal'));
