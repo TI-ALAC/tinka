@@ -5,7 +5,7 @@ async function init() {
   content.style.display = "block";
   setTimeout(() => {
     content2.style.display = "none";
-  }, 0);
+  }, 5000);
   setTimeout(() => {
     content.style.display = "none";
     content2.style.display = "block";
