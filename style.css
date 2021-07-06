@@ -25,21 +25,6 @@ img {
     overflow: hidden;
 }
 
-
-.pozo2digitos {
-    font-size: 172pt;
-    font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #EB1C24;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    z-index: 10;
-    left: 16%;
-    letter-spacing: -20px;
-
-    right: 2%;
-    top: 52%;
-}
 .pozoUnidad {
     font-size: 172pt;
     font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -64,39 +49,17 @@ img {
 
 /* 800x420 */
 @media only screen and (max-width: 800px) {
-    /* .pozo {
-        font-size: 62pt;
-        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: #EB1C24;
-        position: absolute;
-        z-index: 10;
-        left: 20%;
-        right: 2%;
-        top: 55%;
-    } */
-
-    .pozo2digitos {
-        font-size: 75pt!important;
+    .pozoUnidad {
+        font-size: 68pt!important;
         font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: #c5161c;
-        position: absolute;
-        z-index: 10;
-        left: 17%;
-        right: 2%;
-        letter-spacing: -10px;
-        top: 38%;
-    }
-    .pozoUnidad {
-        font-size: 92pt!important;
-        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: #EB1C24;
         width: 20px;
         height: 20px;
         position: absolute;
         z-index: 10;
-        left: 20%;
+        left: 22%;
         right: 2%;
-        top: 50%;
+        top: 41%;
     }
     #millones{
         font-size: 62pt!important;
@@ -110,28 +73,17 @@ img {
 
 /* 768x384 */
 @media only screen and (max-width: 768px) {
-    .pozo2digitos {
-        font-size: 69pt!important;
+    .pozoUnidad {
+        font-size: 61pt!important;
         font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: #c5161c;
-        position: absolute;
-        z-index: 10;
-        left: 17%;
-        right: 2%;
-        letter-spacing: -10px;
-        top: 38%;
-    }
-    .pozoUnidad {
-        font-size: 78pt!important;
-        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: #EB1C24;
         width: 20px;
         height: 20px;
         position: absolute;
         z-index: 10;
-        left: 20%;
+        left: 23%;
         right: 2%;
-        top: 50%;
+        top: 41%;
     }
     #millones{
         font-size: 58pt!important;
@@ -145,28 +97,17 @@ img {
 
 /* 720x360 */
 @media only screen and (max-width: 720px) {
-    .pozo2digitos {
-        font-size: 59pt!important;
+    .pozoUnidad {
+        font-size: 58pt!important;
         font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: #c5161c;
-        position: absolute;
-        z-index: 10;
-        left: 18%;
-        right: 2%;
-        letter-spacing: -10px;
-        top: 40%;
-    }
-    .pozoUnidad {
-        font-size: 76pt!important;
-        font-family: 'COCOGOOSE', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: #EB1C24;
         width: 20px;
         height: 20px;
         position: absolute;
         z-index: 10;
-        left: 20%;
+        left: 23%;
         right: 2%;
-        top: 50%;
+        top: 41%;
     }
     #millones{
         font-size: 56pt!important;

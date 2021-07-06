@@ -1,7 +1,7 @@
 var content = document.getElementById('contenido');
 var content2 = document.getElementById('contenido2');
 async function init() {
-  await getUser();
+  //await getUser();
   content.style.display = "block";
   setTimeout(() => {
     content2.style.display = "none";
